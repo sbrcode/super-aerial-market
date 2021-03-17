@@ -21,6 +21,12 @@ Go back to your initial console (if not done yet)
 cd super-aerial-market
 npm run serve
 ```
+Install required libraries
+```
+npm install vue-router
+npm install vuex
+npm install axios
+```
 Init your GIT repo with your favorite platform
 
 
