@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // This file to centralize the whole axios requests
 const apiClient = axios.create({
-  baseURL: `https://localhost:3000`,
+  baseURL: `http://localhost:3000`,
   withCredentials: false,
   headers: {
     Accept: 'application/json',

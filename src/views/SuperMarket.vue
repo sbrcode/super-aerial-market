@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>Welcome to your Supermarket !</h3>
+    <h3>Welcome to your Supermarket, here are your {{ products.length }} products !</h3>
     <ProductCard v-for="product in products" :key="product.id" :product="product"/>
   </div>
 </template>

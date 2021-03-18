@@ -5,7 +5,7 @@
       <h4 class="title">{{ product.title }}</h4>
       <span>{{ product.description }}</span><br>
       <img alt="image1" :src="product.image1"><br>
-      <span>{{ product.price }}</span><br>
+      <span>€ {{ product.price }}</span><br>
     </div>
   </router-link>
 </template>
