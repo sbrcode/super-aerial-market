@@ -21,3 +21,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# other files
+src/App - Copie.vue
+src/components/HelloWorld - Copie.vue
