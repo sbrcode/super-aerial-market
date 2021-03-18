@@ -17,7 +17,7 @@ vue create super-aerial-market
 Vue CLI v4.5.11
 ? Please pick a preset: Default ([Vue 2] babel, eslint)
 ...
-?  Successfully created project super-aerial-market.
+Successfully created project super-aerial-market.
 
 Set-ExecutionPolicy Restricted
 ```
@@ -41,7 +41,7 @@ Start the mock database after downloading https://drive.google.com/file/d/1bvm62
 json-server.cmd --watch .\MOCK_DATA.json
 ```
 Init your GIT repo with your favorite platform
-
+</br></br>
 
 
 ## Project setup
