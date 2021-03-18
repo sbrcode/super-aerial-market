@@ -3,18 +3,21 @@
 ## My Installation on Windows 8.1
 ```
 npm install -g @vue/cli
+
+vue create super-aerial-market
 ```
-Go to Powershell console with admin rights  (KEEP your initial console if you do not get windows following error message :</br>
+If you get this error :</br>
 vue : Impossible de charger le fichier C:\Users\...\AppData\Roaming\npm\vue.ps1, car l'exécution de scripts est désactivée sur ce système. Pour plus d'informations, consultez about_Execution_Policies à l'adresse http://go.microsoft.com/fwlink/?LinkID=135170.")
+Go to Powershell console with admin rights,then :
 ```
 Set-ExecutionPolicy RemoteSigned
 
 vue create super-aerial-market
 ...
-\tVue CLI v4.5.11
+Vue CLI v4.5.11
 ? Please pick a preset: Default ([Vue 2] babel, eslint)
-\t...
-\t?  Successfully created project super-aerial-market.
+...
+?  Successfully created project super-aerial-market.
 ```
 Go back to your initial console (if not done yet)
 ```
