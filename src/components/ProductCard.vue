@@ -1,14 +1,23 @@
 <template>
   <router-link class="product-link" :to="{ name: 'product', params: { id: product.id } }">
     <div class="product-card -shadow">
+      <!-- Print all product required items -->
       <h4 class="title">{{ product.title }}</h4>
+      <span>{{ product.description }}</span><br>
+      <img alt="image1" :src="product.image1"><br>
       <span>{{ product.price }}</span><br>
-      <span>{{ product.shortdesc }}</span>
     </div>
   </router-link>
 </template>
 
 <script>
+export default {
+  props: {
+    product: Object
+  }
+}
+// // Following part for testing only
+//
 // export default {
 //   data() {
 //     return {
@@ -21,12 +30,6 @@
 //     }
 //   }
 // }
-
-export default {
-  props: {
-    product: Object
-  }
-}
 </script>
 
 <style scoped>

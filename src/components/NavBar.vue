@@ -2,7 +2,7 @@
   <div id="nav" class="nav">
     <router-link to="/" class="brand">Super Aerial Market</router-link>
     <nav>
-      <router-link :to="{ name: 'supermarket' }">Go Back To List</router-link>
+      <router-link :to="{ name: 'supermarket' }">Go back to List</router-link>
     </nav>
   </div>
 </template>

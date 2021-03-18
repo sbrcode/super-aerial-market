@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- Prints when clicking on button DETAILS -->
     <h1>Product #{{ id }}</h1>
   </div>
 </template>

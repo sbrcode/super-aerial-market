@@ -10,6 +10,7 @@ import ProductCard from '@/components/ProductCard.vue'
 import ProductService from '@/services/ProductService'
 
 export default {
+  // listing the whole mock DB (see HTML v-for)
   components: {
     ProductCard
   },
@@ -18,6 +19,7 @@ export default {
       products: []
     }
   },
+  // using axios request in ProductService.js
   created() {
     ProductService.getProducts()
       .then(response => this.products = response.data)

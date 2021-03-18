@@ -1,18 +1,18 @@
 import axios from 'axios'
 
+// This file to centralize the whole axios requests
 const apiClient = axios.create({
-    baseURL: `http://localhost:3000`,
-    // baseURL: "file:///C:/Users/sylv/VueJsProjects/super-aerial-market",
-    // baseURL: "https://drive.google.com/file/d/1bvm62C_s9oH38hIuClKeT-l2EOdFm7gi/view",
-    withCredentials: false,
-    headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json'
-    }
+  baseURL: `https://localhost:3000`,
+  withCredentials: false,
+  headers: {
+    Accept: 'application/json',
+    'Content-Type': 'application/json'
+  }
 })
 
+// function getProducts to use everywhere you need to access mock DB
 export default {
-    getProducts() {
-        return apiClient.get('/products')
-    }
+  getProducts() {
+    return apiClient.get('/products')
+  }
 }
