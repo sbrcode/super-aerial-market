@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>Welcome to your Supermarket, here are your {{ products.length }} products !</h3>
+    <h3>Welcome to your Supermarket, here are your <span>{{ products.length }}</span> products !</h3>
     <ProductCard v-for="product in products" :key="product.id" :product="product"/>
   </div>
 </template>
@@ -42,5 +42,8 @@ li {
 }
 a {
   color: #42b983;
+}
+span {
+  color: red;
 }
 </style>
